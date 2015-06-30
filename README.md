@@ -43,14 +43,14 @@ python a_priori.py [-n] [-p] [-o OUTPUT] support filename
 Για παράδειγμα, μπορούμε να καλέσουμε το πρόγραμμα ως εξής:
 
 ```
-python a_priory.p -n 2 a_priori_example_2.csv
+python a_priori.py -n 2 a_priori_example_2.csv
 ```
 το οποίο σημαίνει ότι θα διαβαστεί το αρχείο `a_priori_example_2.csv`, τα περιεχόμενα του οποίου θα ερμηνευτούν ως αριθμητικά, η υποστήριξη θα έχει κατώφλι το 2, και τα αποτελέσματα θα εμφανιστούν στην οθόνη.
 
 Αν δώσουμε:
 
 ```
-python a_priory.p -p -o a_prior_example_1_results.csv 20 a_priori_example_1.csv
+python a_priori.py -p -o a_prior_example_1_results.csv 20 a_priori_example_1.csv
 ```
 
 θα διαβαστεί το αρχείο `a_priori_example_1.csv`, τα περιεχόμενα του οποίου θα ερμηνευτούν ως string, η υποστήριξη θα έχει κατώφλι το 20% του συνόλου των εγγραφών, και τα αποτελέσματα θα αποθηκευτούν στο αρχείο `a_prior_example_1_results.csv`.
